@@ -1,0 +1,58 @@
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parent {
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+
+.part {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.one {
+    background-color: rgb(210, 15, 50);
+}
+
+.two {
+    background-color: rgb(21, 131, 60);
+}
+
+.three {
+    background-color: rgb(255, 255, 255);
+}
+
+.four {
+    background-color: rgb(31, 31, 36);
+}
+
+.five {
+    background-color: rgb(10, 49, 100);
+}
+
+#title {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#title-text {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#title-black {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
